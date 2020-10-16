@@ -1,0 +1,5 @@
+let
+  var x:= "hi"
+in
+  x = "sf" 
+end

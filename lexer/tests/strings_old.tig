@@ -1,0 +1,14 @@
+"abc \n\
+this should be on another line"
+
+"abc \t\
+\this should be just tabbed"
+
+"abc \f\
+\form feed inserted"
+
+"abc \s\
+\inserted \"\\s\" inside!"
+
+"abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
+"!@#$%^&*()-_=+[{}]\\|'\";:/?.>,<`~"

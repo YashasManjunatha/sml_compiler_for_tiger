@@ -1,0 +1,7 @@
+let
+  function a():int = 4
+  function b(one:int) = one
+in
+  a();
+  b(3)
+end

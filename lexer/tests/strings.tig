@@ -1,0 +1,31 @@
+a = "abcd"
+a = "a345#$fd for while"
+a = "a \n c"
+a = "a"
+"a\nb newline"
+"a\tb tag"
+"a\"b quotation"
+"a\012b feed form"
+"a\032b space (\"\\s\")"
+"a\123b\124 ascii"
+"a\\b slash"
+"a \n \tc\n\123\\\" miscellaneous"
+
+"sdfsdfsdf \
+
+\helall continuations!"
+
+"abc \n\
+\this should be on another line"
+
+"abc \t\
+\this should be just tabbed"
+
+"abc \012\
+\form feed inserted"
+
+"abc \032\
+\inserted \"\\s\" inside!"
+
+"abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
+"!@#$%^&*()-_=+[{}]\\|'\";:/?.>,<`~"

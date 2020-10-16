@@ -1,0 +1,3 @@
+MOVE(
+ TEMP t199,
+ CONST 0)

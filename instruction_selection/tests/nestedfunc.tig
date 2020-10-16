@@ -1,0 +1,8 @@
+let 
+ var x := 10
+  function noarg1():int = x
+  function noarg2():int = let var y := 5 in y end
+in
+  noarg1()
+end
+  

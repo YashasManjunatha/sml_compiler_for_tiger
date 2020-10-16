@@ -1,0 +1,11 @@
+**.cm/**
+semantics/.cm/**
+parser/.cm/**
+lexer/.cm/**
+**.sw*
+appel/
+ir/.cm/**
+ir/.cm
+ir/.cm/SKEL/translate.sml
+.DS_Store
+instruction_selection/tests/**.s

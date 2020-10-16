@@ -1,0 +1,14 @@
+let 
+  type a = b
+  type b = int
+  var x := 5
+  var xb:b := 5
+  type c = d
+  type d = c
+  var xa:a := 5
+  var xa2:a := "hi"
+  type intlist = {hd: int, tl: intlist}
+  type tree = {key: int, children: treelist} 
+  type treelist = {hd: tree, tl: treelist}
+in
+end

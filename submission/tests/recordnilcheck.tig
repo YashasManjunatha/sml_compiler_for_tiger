@@ -1,0 +1,7 @@
+let
+  type intRec = {a:int, b:int}
+  var r := intRec{a=4, b=5}
+  var r2 := nil
+in
+  r.a
+end

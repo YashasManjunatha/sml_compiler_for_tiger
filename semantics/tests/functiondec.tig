@@ -1,0 +1,14 @@
+let 
+  function noarg() = ()
+  function onearg(x: int) = ()
+  function twoarg(x: int, y:string) = ()
+  function onearg_retstatic(x:int): int = 10
+  function onearg_retval(x:int): int = x
+
+  function noarg_bad() = 10
+  function onearg_bad_retval(x:int): int = "str"
+  function onearg_bad_retval(x:int): string = x
+  function onearg_bad_retval(x:randotype): string = "sdf"
+in
+  10
+end

@@ -1,0 +1,7 @@
+let 
+ var x := 10
+ function noarg1(y:int):int = x
+ function noarg2():int =  noarg1(6)
+in
+ noarg2()
+end

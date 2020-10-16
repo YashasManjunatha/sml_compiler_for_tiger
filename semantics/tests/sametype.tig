@@ -1,0 +1,13 @@
+let
+	type reca = {a: int, b:string}
+	type recb = reca
+  var X := reca {a=3, b="hi"}
+  var Y := reca {a=4, b="hi"}
+  var Z := recb {a=5, b="hi"}
+  var A := 5
+in
+  5 = "hi";
+  X = nil;
+  X = Y;
+  X = A
+end

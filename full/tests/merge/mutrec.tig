@@ -1,0 +1,15 @@
+let
+  var x := 5
+  
+  function addToX(addition: int):int = x + addition
+
+  function addToXCaller(addition:int):int = 
+    let
+      var x2 := 100
+    in
+      addToX(addition)
+    end
+in
+  addToX(1);
+  addToXCaller(2)
+end

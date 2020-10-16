@@ -1,0 +1,2 @@
+type bob = {hello:string,world:int} type x = y
+type what = array of x

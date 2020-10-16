@@ -1,0 +1,5 @@
+let
+  type r1 = {a:int}
+  type r1 = {a:int, b:int}
+in
+end

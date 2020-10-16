@@ -1,0 +1,16 @@
+let
+type x = {hello:int}
+function what (x:int, y:hellotype) : string = 100 - 4
+
+type x = {hello:int}
+function what (x:int, y:hellotype) : string = 100 - 4
+function f2 () = 4
+
+type z = {hello:int}
+type y = {hello:int};
+function f1 (x:int) = 5
+function f2 () = 6
+function f3 () = 5
+
+in
+end

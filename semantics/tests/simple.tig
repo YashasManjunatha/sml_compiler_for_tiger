@@ -1,0 +1,6 @@
+let
+	type degrees = int
+	var a: degrees := "whooooo hey baby you sexiiiii"
+in
+	a + 10
+end

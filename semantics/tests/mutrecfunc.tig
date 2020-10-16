@@ -1,0 +1,7 @@
+let
+  function noarg(): int = onearg(1)
+  function onearg(x:int): int = 2*x
+  function twoarg(x:int, y:string) = zeroarg()
+in
+  noarg()
+end

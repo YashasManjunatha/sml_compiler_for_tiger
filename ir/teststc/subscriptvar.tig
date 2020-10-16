@@ -1,0 +1,16 @@
+let
+  type intarray = array of int
+  type stringarray = array of string
+  var arrint := intarray[5] of 0
+  var arrstring := stringarray[5] of "hi"
+  var num := 0
+in
+  arrint[0];
+  arrint[1];
+  arrint["hi"];
+  arrstring["hi"];
+  num[0];
+  arrstring[0]
+end
+  
+

@@ -1,0 +1,5 @@
+let
+  type intRec = intRec2
+  type intRec2 = intRec
+in
+end

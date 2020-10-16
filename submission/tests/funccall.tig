@@ -1,0 +1,7 @@
+let 
+  function foo():int = 5
+  function bar(x:int ):int = x + 1
+in
+  foo();
+  bar(2)
+end

@@ -1,0 +1,7 @@
+let
+  type intarray = array of int
+  var x := intarray[3] of 4
+  in
+  x[2] := 3
+  x[3] := x[2]
+end

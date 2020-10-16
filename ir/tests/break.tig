@@ -1,0 +1,5 @@
+let
+  var x := 1
+in
+  while x < 2 do (x := x + 1; break)
+end

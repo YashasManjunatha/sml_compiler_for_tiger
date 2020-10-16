@@ -1,0 +1,8 @@
+var x := 3
+var y:int := 3*5+2
+type bob = {hello:string,world:int} type x = y
+type what = array of x
+function hi (x:int) = 5
+function hell0 () = 6
+function what (x:int, y:hellotype) : string = 100 - 4
+

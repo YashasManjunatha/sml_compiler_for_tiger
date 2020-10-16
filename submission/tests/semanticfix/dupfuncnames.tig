@@ -1,0 +1,6 @@
+let
+  function a1():int = 4
+  function a2():int= 5
+  function a1():int = 6
+in
+end

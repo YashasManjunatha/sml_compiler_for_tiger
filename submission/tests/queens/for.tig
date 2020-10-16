@@ -1,0 +1,7 @@
+let 
+  var x := 100
+in
+  for i := 0 to 4 do (x := x + 1) ;
+  x
+end
+

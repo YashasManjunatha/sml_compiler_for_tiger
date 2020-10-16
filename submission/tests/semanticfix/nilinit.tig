@@ -1,0 +1,9 @@
+let
+  type rec = {a:int}
+  type recArr = array of rec
+  type intArr = array of int
+  var x := recArr[4] of nil
+  var y := intArr[4] of 3
+  var y := intArr[4] of nil
+in
+end

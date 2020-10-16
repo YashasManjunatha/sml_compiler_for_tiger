@@ -1,0 +1,11 @@
+let 
+var x := 8
+in
+  (for i := x to x + 3 do if 1 then 1 else 0);
+  (for i := 0  to 4  do if x then 1 else 0);
+  (for i := 0  to 4  do if i then 1 else 0);
+  
+  (for i := "hi" to x + 3 do if 1 then 1 else 0);
+  (for i := 0  to "hi"  do if 1 then 1 else 0);
+  (for i := 0  to 4  do if y then 1 else 0)
+end

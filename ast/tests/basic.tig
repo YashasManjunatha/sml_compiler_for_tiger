@@ -1,0 +1,2 @@
+type x = int
+type y = array of int

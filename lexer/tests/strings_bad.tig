@@ -1,0 +1,9 @@
+"a\b"
+"a\ "
+"a\444 invalid ascii"
+"a\4a3 invalid forward string"
+"a\\\\\ many backward confusion"
+"boom \          splat"
+"\ t big sad we will persevere"
+"\ 111 big sad ascii doesn't work"
+"i don't f with yo

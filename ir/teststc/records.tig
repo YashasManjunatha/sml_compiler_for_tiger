@@ -1,0 +1,13 @@
+let 
+  type r1 = {a:int, b:string}
+  var A := r1 {a=3, b="hi"}
+  var B := r2 {a="hi"}
+  var C := r1 {a="hi", b="hi"}
+  var D := r1 {a="hi"}
+  var E := r2 {a="hi"}
+  var F := r1 {a=4, b="hi"}
+  var G := r1 {b="hi", a=3}
+  var H := r1 {b="hi", a="hi"}
+in
+  
+end

@@ -1,0 +1,19 @@
+
+let 
+  var x := 10
+  function noarg() = ()
+  function onearg(x: int) = ()
+  function twoarg(x: int, y:string) = ()
+  function onearg_retstatic(x:int): int = 10
+  function onearg_retval(x:string): string = x
+in
+  noarg();
+  onearg(10);
+  onearg("hi");
+  onearg(10, 10);
+  onearg();
+  twoarg(10, "hello");
+  twoarg(10, 10);
+  x + 10;
+  onearg_retval("hi")
+end

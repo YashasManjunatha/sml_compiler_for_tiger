@@ -1,0 +1,11 @@
+let 
+  type r1 = {a:int}
+  type r2 = {A: int, B:r1}
+  var alpha := r1 {a=3}
+  var beta := r2 {A=4, B=alpha}
+in
+  beta.B.a;
+  beta.B.B;
+  beta.a;
+  beta.A
+end

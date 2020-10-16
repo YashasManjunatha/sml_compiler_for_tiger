@@ -1,0 +1,13 @@
+let
+  var x := 8
+  type intarray = array of int
+  type intrec = {a:int, b:int}
+  var arr := intarray[5] of 6
+  var rec := intrec{a=7, b=8}
+in
+  x + 2;
+  arr[0];
+  x := arr[1];
+  rec.a;
+  rec.b
+end

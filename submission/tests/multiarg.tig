@@ -1,0 +1,10 @@
+let 
+  function factorial(x:int):int = 
+    let 
+      var y:int := 2
+    in
+      if x = 0 then 1 else x * factorial(x-1) + y
+    end
+in
+  factorial(5)
+end

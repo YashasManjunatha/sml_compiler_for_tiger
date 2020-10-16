@@ -1,0 +1,9 @@
+let 
+  type intRecord = {a:int, b:int}
+  var r1 := intRecord{a=3, b=4}
+  var x := 0;
+in
+  x
+  /*r1.a;
+  r1.b*/
+end

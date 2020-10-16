@@ -1,0 +1,9 @@
+let
+  type intarray = array of int
+  var arr := intarray[5] of 0
+  var arr1 := intarray["hi"] of 0
+  var arr2 := randotype[4] of 0
+  var arr3 := intarray[4] of "hi"
+in
+end
+  
